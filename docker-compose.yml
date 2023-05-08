@@ -15,7 +15,7 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node1
     volumes:
-    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
     ports:
       - "80"
 
@@ -23,7 +23,7 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node2
     volumes:
-    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
     ports:
       - "80"
 
@@ -31,7 +31,7 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node3
     volumes:
-    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
     ports:
       - "80"
 
@@ -39,6 +39,6 @@ services:
     image: nginx:1.23.1-alpine
     container_name: node4
     volumes:
-    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
+    - /home/mateus/Documentos/gcsitsi/aemotor-loadbalancer/build/aemotor-reactjs/build:/usr/share/nginx/html
     ports:
       - "80"
